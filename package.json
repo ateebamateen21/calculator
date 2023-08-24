@@ -63,6 +63,11 @@
   },
   "author": "\"Ateeba Mateen\"",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ateebamateen21/calculator"
+  },
+  
   "devDependencies": {
     "@types/inquirer": "^9.0.3"
   }
