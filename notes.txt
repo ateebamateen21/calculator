@@ -1,0 +1,49 @@
+TO MAKE PACKAGE.JSON
+
+# npm init -y (with default values)
+# npm init (with custom values)
+
+TO MAKE TSCONFIG FILE
+
+# tsc --init 
+
+__________________________________________________________
+
+TO COMPILE TS CODE TO JS CODE 
+# tsc (for every file in the directory)
+#tsc "filename.ts" (for compiling only one at a time)
+
+TO RUN THE COMPILED JS FILE 
+# node filename.js
+
+___________________________________________________
+
+TO INSTALL INQUIRER
+# npm i inquirer 
+TO INSTALL THE DEV DEPENDENCIES OF INQUIRER
+#npm i --save-dev @types/inquirer
+
+TO INSTALL CHALK
+# npm i chalk
+
+______________________________________________________
+
+
+CHANGING FROM COMMONJS ENVIRONMENT TO ES6 ENVIRONMENT:
+//Navigate to th package.JSON
+Add ["type": "module",]
+
+//Navigate to the tsconfig.JSON
+Change target to 'es2020" or later
+Change Module to "NodeNext"
+
+____________________________________________________________
+
+
+IMPORTING IN ES6 ENVIRONMENT 
+
+#  import inquirer from "inquirer";
+#  import chalk from "chalk";
+
+
+
