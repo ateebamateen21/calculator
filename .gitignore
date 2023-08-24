@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#ignore the inquirer library and dependencies
+node_modules/
+
+#ignore ethe notes.txt
+notes.txt
